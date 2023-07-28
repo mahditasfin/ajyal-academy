@@ -1,0 +1,23 @@
+{{ $md := .Site.Params.body_is_markdown | default false }}
+
+{{ with .Site.Params.contact }}
+{{ if .enable }}
+<section id="contact" class="wrapper style5">
+  <div class="inner">
+    <header class="major">
+      <h2>{{ .title }}</h2>
+      {{ partial "body_text.html" (dict "context" . "md" $md) }}
+    </header>
+    <div>
+     <strong>Finding Ajyal Academy is easy! We are conveniently located at:</strong> <br>
+    
+      <i>181 Keefer Place, Unit #202,</i><br>
+      <i>Vancouver, BC V6B 6C1</i><br>
+      <i>(Steps away from Chinatown station)</i><br><br>
+      Join us at Ajyal Academy, where we strive to make a positive impact on the lives of our community members, fostering growth, learning, and a supportive network for all. Together, let's create a stronger, more diverse workforce and a harmonious society.
+    </div> 
+  </div>
+</section>
+{{ end }}
+{{ end }}
+

@@ -1,0 +1,144 @@
+baseURL = "/"
+title = "Ajyal Academy"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableEmoji = true
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "Welcome to Ajyal Academy 🕌" # title for frontpage, may include image
+copyright = "Ajyal Islamic Centre Vancouver"
+description = 'For Ajyal Islamic Centre Vancouver <br>👇'
+startbuttonText = "Ajyal Islamic Centre Vancouver"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'About Us'
+body = '''
+Ajyal Academy is a vibrant Education Centre located in Downtown Vancouver, British Columbia, Canada. We take pride in being a leading Education Centre that embraces diversity and inclusion. Our dedicated team is committed to providing an enriching experience for all members of the community. Whether you're looking to enhance your language skills, engage in cultural exchange, or explore new recreational activities, Ajyal has something to offer for everyone.
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+title = 'Mission & Vision'
+body = '''
+Ajyal Academy's mission is to empower youth and individuals of all ages with the knowledge and skills needed to thrive in a diverse and inclusive workforce. By fostering a supportive and culturally rich environment, we aim to create equal opportunities for all members of the British Columbia community.
+'''
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Programs'
+body = '''
+As we continue to bounce back from the challenges of COVID-19, Ajyal Academy has resumed its regular weekly and monthly programs. Some of our featured programs include:
+
+* **Turkish Language Halaqa for Brothers and Sisters:**
+Join us every Monday for an engaging and interactive Turkish language class, where you can improve your language skills and connect with fellow learners.
+'''
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Volunteers'
+body = 'Ajyal is governed by an Elected Board supported by Volunteers providing services for regular attendees of the Center. We believe that volunteers are the backbone of our community. If you have a program suggestion or possess the skills to administer a particular activity, we encourage you to become a part of our volunteer team. Your contributions can make a significant difference in the lives of others.'
+[params.three]
+enable = true
+title = 'Education and Programs to Help <br />Re-enter the Workforce'
+body = '''
+As part of our commitment to empowering individuals and creating equal opportunities in the workforce, Ajyal Academy has designed specialized programs to assist those looking to re-enter the job market.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Career Counseling and Workshops"
+body = "Our experienced career counselors offer personalized guidance, resume building tips, and interview preparation workshops to equip individuals with the skills needed to secure meaningful employment."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Skill Development Courses"
+body = "Ajyal hosts a variety of skill development courses, ranging from computer literacy to vocational training. These courses are tailored to enhance employability and ensure participants are up-to-date with current industry demands."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Networking Events"
+body = "We regularly organize networking events that connect job seekers with potential employers, creating a supportive environment for career growth."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Mentorship Program"
+body = "Our mentorship program pairs job seekers with experienced professionals in their desired fields. Mentors offer valuable insights, guidance, and encouragement throughout the job search process."
+
+
+
+
+[params.cta]
+enable = true
+title = "Donate Now"
+body = "Your generous support plays a crucial role in sustaining Ajyal Academy and its mission. We recently renewed the lease for the Centre for the next five years, ensuring continuity in our efforts to serve the community. For complete transparency, our Monthly Financial Positions are publicly posted on the Bulletin Board in the main hall, so you can see exactly how your donations are being utilized."
+[[params.cta.link]]
+href = "https://ajyal-islamic-centre.square.site/"
+text = "Donate Now"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Ajyal Islamic Centre"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
