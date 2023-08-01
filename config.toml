@@ -7,11 +7,8 @@ paginate = "7"
 theme = "spectral"
 
 [params]
-fancyTitle = "Welcome to Ajyal Academy 🕌" # title for frontpage, may include image
-copyright = "Ajyal Islamic Centre Vancouver"
-description = 'For Ajyal Islamic Centre Vancouver <br>👇'
-startbuttonText = "Ajyal Islamic Centre Vancouver"
-startbuttonLink = "https://www.ajyal.ca/"
+fancyTitle = "Welcome to Ajyal Academy" # title for frontpage, may include image
+copyright = "Ajyal for Youth Development"
 body_is_markdown = true
 #custom_css = "foo.css"
 #images = ["path_to_social_image_for_link_previews.jpg"]
@@ -63,7 +60,7 @@ title = 'Programs'
 body = '''
 As we continue to bounce back from the challenges of COVID-19, Ajyal Academy has resumed its regular weekly and monthly programs. Some of our featured programs include:
 
-* **Turkish Language Halaqa for Brothers and Sisters:**
+* **Turkish Language Lessons for Brothers and Sisters:**
 Join us every Monday for an engaging and interactive Turkish language class, where you can improve your language skills and connect with fellow learners.
 '''
 [[params.two.section]]
@@ -103,16 +100,12 @@ body = "Our mentorship program pairs job seekers with experienced professionals 
 [params.cta]
 enable = true
 title = "Donate Now"
-body = "Your generous support plays a crucial role in sustaining Ajyal Academy and its mission. We recently renewed the lease for the Centre for the next five years, ensuring continuity in our efforts to serve the community. For complete transparency, our Monthly Financial Positions are publicly posted on the Bulletin Board in the main hall, so you can see exactly how your donations are being utilized."
-[[params.cta.link]]
-href = "https://ajyal-islamic-centre.square.site/"
+body = '''
+Your generous support plays a crucial role in sustaining Ajyal Academy and its mission. We recently renewed the lease for the Centre for the next five years, ensuring continuity in our efforts to serve the community. For complete transparency, our Monthly Financial Positions are publicly posted on the Bulletin Board in the main hall, so you can see exactly how your donations are being utilized.
+<br> You can e-transfer or reach out to us at donate@ajyal.ca
+'''
 text = "Donate Now"
 special = true
-
-[[params.cta.link]]
-href = "https://www.ajyal.ca/"
-text = "Ajyal Islamic Centre"
-special = false
 
 [params.contact]
 enable = true
