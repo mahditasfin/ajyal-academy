@@ -26,7 +26,7 @@ title = "Home"
 enable = true
 title = 'About Us'
 body = '''
-Ajyal Academy is a vibrant Education Centre located in Downtown Vancouver, British Columbia, Canada. We take pride in being a leading Education Centre that embraces diversity and inclusion. Our dedicated team is committed to providing an enriching experience for all members of the community. Whether you're looking to enhance your language skills, engage in cultural exchange, or explore new recreational activities, Ajyal has something to offer for everyone.
+Ajyal Academy is a vibrant Education Centre located in Downtown Vancouver, British Columbia, Canada, serving the Greater Vancouver area, including Metro Vancouver and Fraser Valley. We are proud to be a leading education centre that embraces diversity and inclusion, and are in the process of expanding our services BC-wide. Our dedicated team is committed to providing an enriching experience for all members of the community. Whether you're looking to enhance your language skills, engage in cultural exchange, or explore new recreational activities, Ajyal has something to offer for everyone. With a broad service area and a variety of programs, we're dedicated to meeting the diverse needs of our growing community.
 '''
 
 [[params.one.icon]]
@@ -51,7 +51,7 @@ enable = true
 img = "img/pic01.jpg"
 title = 'Mission & Vision'
 body = '''
-Ajyal Academy's mission is to empower youth and individuals of all ages with the knowledge and skills needed to thrive in a diverse and inclusive workforce. By fostering a supportive and culturally rich environment, we aim to create equal opportunities for all members of the British Columbia community.
+Ajyal Academy is dedicated to supporting Youth, Women, and Seniors – groups that earnestly deserve equity. Our mission extends to empowering these individuals, along with youth and people of all ages, with the knowledge and skills necessary to flourish in a diverse and inclusive workforce. We provide a range of activities including employment training, skills development, and life skills enhancement, designed to foster personal and professional growth. By fostering a supportive and culturally rich environment, we aim to create equal opportunities for all members of the British Columbia community, ensuring that each person, irrespective of their background, has access to resources that aid in their success.
 '''
 
 [[params.two.section]]
@@ -60,8 +60,23 @@ title = 'Programs'
 body = '''
 As we continue to bounce back from the challenges of COVID-19, Ajyal Academy has resumed its regular weekly and monthly programs. Some of our featured programs include:
 
+* **Graphic Design Diploma - in partnership with PICS and CCC college :**
+
+The objective of the program is to provide students with the necessary skills and knowledge about software programs that every professinal designer needs to know: Adobe Photoshop, Illustrator and InDesign. They also learn techniques for creating digital images, illustrations and layouts, and they develop a strong theoretical foundation in color, typography and composition.
+
+More details can be found [Here](https://freetrainings.ca/graphic-design-diploma-program)
+
+* **Health Care Assistant & Community Mental Health Training - in partnership with PICS and WCC university:**
+
+Graduates will be able to obtain two industry-recognized certificates, Health Care Assistant Diploma & Community Mental Health Certificate, as well as short-term occupational certificates.
+
+More details can be found [Here](https://freetrainings.ca/hca-cmh-training)
+
 * **Turkish Language Lessons for Brothers and Sisters:**
 Join us every Monday for an engaging and interactive Turkish language class, where you can improve your language skills and connect with fellow learners.
+
+
+
 '''
 [[params.two.section]]
 img = "img/pic03.jpg"
